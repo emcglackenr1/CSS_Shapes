@@ -206,23 +206,23 @@
      /* in order to make this look like its moving like a saw or a drill, change the border-radius %s between two versions using an animation. */
    }
   
-  
+ 
+ #sunset {
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+  background-image:
+  linear-gradient(15deg, black 5%, #1b6516 35%, black 25%, transparent 55%), 
+  linear-gradient(-10deg, #31ab29 35%, black 15%, transparent 55%),  
+  linear-gradient(-65deg, yellow 25%, orange 25%, transparent 55%),  
+  linear-gradient(45deg, #1d2f71 15%, transparent 15%),
+  linear-gradient(180deg, red 95%, transparent 5%);    
+  background-position: 150% 100%, 1% 0, 10% 0, 10 80%;
+  opacity: .5;
+ }
+
   
    #pretty_geometric {
-    width: 20%;
-    height: 20%;
-    opacity: 1;
-    background-image:
-    linear-gradient(45deg, #808080 55%, transparent 55%), 
-    linear-gradient(-45deg, #808080 55%, transparent 55%),  
-    linear-gradient(45deg, transparent 15%, #d65db1 75%),
-    linear-gradient(-45deg, transparent 75%, black 15%),
-     linear-gradient(45deg, transparent 75%, #ffc75f 15%);    
-    background-position:1% 10%, 1% 0, 10% -45%, 0 80%;
-    opacity: .5;
-   }
-  
-   #pretty_geometric2 {
     width: 20%;
     height: 20%;
     opacity: 1;
