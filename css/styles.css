@@ -236,8 +236,8 @@
   }
   
    #pretty_envelope {
-    width: 25%;
-    height: 5%;
+    width: 200px;
+    height: 100px;
     opacity: 1;
     background-image:
       /* the degrees determine the angle of the gradient */
