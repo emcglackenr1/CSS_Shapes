@@ -28,11 +28,13 @@
   .main {
     grid-area: main;
     padding: 10%;
+    float: left;
   }
   
   .main2 {
     grid-area: main2;
     padding: 10%;
+    float: right;
   }
   
   
