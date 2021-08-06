@@ -28,15 +28,14 @@
   .main {
     grid-area: main;
     padding: 10%;
-    float: left;
   }
   
   
   
   .shape
   {
-    float: justify;
     margin-bottom: 10%;
+    float: left;
   }
   
   
