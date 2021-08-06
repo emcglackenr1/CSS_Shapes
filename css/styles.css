@@ -163,6 +163,30 @@
     border-width: 5;
     border-radius: 55% 45% 50% 50%;
    }
+
+  
+  #neon_tartan_button
+  {
+     width: 90px;
+     height: 90px;
+     position:unset;
+     opacity: .6;
+    background-image:
+    linear-gradient(45deg, #808080 15%, transparent 5%), 
+    linear-gradient(-45deg, #808080 10%, transparent 0%),
+    linear-gradient(45deg, transparent 65%, #808080 5%),
+    linear-gradient(15deg, yellow 15%, transparent 75%), 
+    linear-gradient(195deg, purple 55%, transparent 10%),   
+    linear-gradient(-195deg, black 15%, transparent 5%), 
+    linear-gradient(395deg, transparent 15%, blue 35%),
+    linear-gradient(95deg, transparent 0%, purple 15%);
+    background-size: 20px 20px;    
+    background-position:1% 10%, 1% 0, 10% -45%, 0 80%;
+    border: dashed;
+    border-color: purple;
+    border-width: 1px;
+    border-radius: 80% 55%;
+  }
   
    #spike2 {
        width: 1000px;
@@ -276,27 +300,5 @@
     border-radius: 19% 45% 19% 55%;
     opacity: .5;
    }
-  
-  #neon_tartan_button
-  {
-     width: 90px;
-     height: 90px;
-     position:unset;
-     opacity: .6;
-    background-image:
-    linear-gradient(45deg, #808080 15%, transparent 5%), 
-    linear-gradient(-45deg, #808080 10%, transparent 0%),
-    linear-gradient(45deg, transparent 65%, #808080 5%),
-    linear-gradient(15deg, yellow 15%, transparent 75%), 
-    linear-gradient(195deg, purple 55%, transparent 10%),   
-    linear-gradient(-195deg, black 15%, transparent 5%), 
-    linear-gradient(395deg, transparent 15%, blue 35%),
-    linear-gradient(95deg, transparent 0%, purple 15%);
-    background-size: 20px 20px;    
-    background-position:1% 10%, 1% 0, 10% -45%, 0 80%;
-    border: dashed;
-    border-color: purple;
-    border-width: 1px;
-    border-radius: 80% 55%;
-  }
+
   
