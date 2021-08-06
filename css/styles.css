@@ -1,20 +1,4 @@
 
-.header {
-    grid-area: header;
-    margin-left: 5%;
-    text-indent: 10%;
-  }
-  
-  .aside2 {
-    grid-area: aside2;
-  }
-  .aside1 {
-    grid-area: aside1;
-  }
-  .footer {
-    grid-area: footer;
-  }
-  
   body {
     display: grid;
     grid-template-columns: 9% 43% 43% 5%;
@@ -25,6 +9,13 @@
       "footer footer footer footer";
   }
   
+
+.header {
+    grid-area: header;
+    margin-left: 5%;
+    text-indent: 10%;
+  }
+
   .main {
     grid-area: main;
     padding: 5%;
@@ -36,6 +27,20 @@
     padding: 5%;
     float: right;
   }
+
+ .aside1 {
+    grid-area: aside1;
+  }
+  .aside2 {
+    grid-area: aside2;
+  }
+ 
+  .footer {
+    grid-area: footer;
+  }
+  
+
+
   
   
   
