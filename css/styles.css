@@ -17,23 +17,23 @@
   
   body {
     display: grid;
-    grid-template-columns: 10% 40% 35% 5%;
+    grid-template-columns: 9% 43% 43% 5%;
     grid-template-rows: fit-content;
     grid-template-areas: 
-      "header header header"
+      "header header header header"
       "aside1 main main2 aside2"
-      "footer footer footer";
+      "footer footer footer footer";
   }
   
   .main {
     grid-area: main;
-    padding: 10%;
+    padding: 5%;
     float: left;
   }
   
   .main2 {
     grid-area: main2;
-    padding: 10%;
+    padding: 5%;
     float: right;
   }
   
@@ -41,7 +41,7 @@
   
   .shape
   {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
   }
   
   
