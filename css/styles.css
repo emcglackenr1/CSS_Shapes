@@ -21,7 +21,7 @@
     grid-template-rows: fit-content;
     grid-template-areas: 
       "header header header"
-      "aside1 main1 main2 aside2"
+      "aside1 main main2 aside2"
       "footer footer footer";
   }
   
