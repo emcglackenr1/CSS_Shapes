@@ -14,27 +14,33 @@
     grid-area: header;
     margin-left: 5%;
     text-indent: 10%;
+    width: 100%;
   }
 
   .main {
     grid-area: main;
     padding: 5%;
+    width: 100%;
   }
   
   .main2 {
     grid-area: main2;
     padding: 5%;
+      width: 100%;
   }
 
  .aside1 {
     grid-area: aside1;
+     width: 100%;
   }
   .aside2 {
     grid-area: aside2;
+      width: 100%;
   }
  
   .footer {
     grid-area: footer;
+      width: 100%;
   }
   
 
