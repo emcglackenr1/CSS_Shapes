@@ -17,7 +17,7 @@
   
   body {
     display: grid;
-    grid-template-columns: 20% 70% 5%;
+    grid-template-columns: 10% 70% 5%;
     grid-template-rows: fit-content;
     grid-template-areas: 
       "header header header"
@@ -197,7 +197,7 @@
   }
   
    #pretty_envelope {
-    width: 40%;
+    width: 30%;
     height: 5%;
     opacity: 1;
     background-image:
