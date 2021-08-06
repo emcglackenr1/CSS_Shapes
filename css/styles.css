@@ -19,13 +19,11 @@
   .main {
     grid-area: main;
     padding: 5%;
-    float: left;
   }
   
   .main2 {
     grid-area: main2;
     padding: 5%;
-    float: right;
   }
 
  .aside1 {
