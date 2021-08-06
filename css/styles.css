@@ -1,5 +1,5 @@
 
-  body {
+.container {
     display: grid;
     grid-template-columns: 9% 43% 43% 5%;
     grid-template-rows: fit-content;
