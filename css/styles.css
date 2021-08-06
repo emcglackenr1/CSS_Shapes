@@ -1,0 +1,287 @@
+
+.header {
+    grid-area: header;
+    margin-left: 5%;
+    text-indent: 10%;
+  }
+  
+  .aside2 {
+    grid-area: aside2;
+  }
+  .aside1 {
+    grid-area: aside1;
+  }
+  .footer {
+    grid-area: footer;
+  }
+  
+  body {
+    display: grid;
+    grid-template-columns: 20% 70% 5%;
+    grid-template-rows: fit-content;
+    grid-template-areas: 
+      "header header header"
+      "aside1 main aside2"
+      "footer footer footer";
+  }
+  
+  .main {
+    grid-area: main;
+    padding: 10%;
+  }
+  
+  
+  
+  .shape
+  {
+    float: justify;
+    margin-bottom: 10%;
+  }
+  
+  
+  
+  #shape1 {
+       opacity: 1;
+       width: 300px;
+       height: 150px;
+    background-image:
+    linear-gradient(75deg, #808080 5%, transparent 15%), 
+    linear-gradient(-45deg, #808080 25%, transparent 80%),
+    linear-gradient(45deg, transparent 5%, #808080 75%),
+    linear-gradient(-45deg, transparent 75%, #808080 75%);
+    background-size: 20px 20px;    
+    background-position:0 0, 1% 0, 10% -75%, 0 30%;
+    border: dotted;
+    border-color: white;
+   }
+  
+  #shape2 {
+       width: 150px;
+       height: 150px;
+    background-image:
+    linear-gradient(45deg, #808080 15%, transparent 55%), 
+    linear-gradient(-45deg, #808080 15%, transparent 0%),
+    linear-gradient(45deg, transparent 15%, #808080 75%),
+    linear-gradient(-45deg, transparent 75%, #808080 45%);
+    background-size: 20px 20px;    
+    background-position:0 0, 1% 0, 10% -25%, 0 30%;
+    border: dashed;
+    border-color: white;
+    border-width: .5px;
+    border-radius: 55% 45% 195% 0%;
+  }
+  
+  #splodge {
+       width: 10px;
+       height: 15px;
+         line-height:40px;
+      transform: rotate(-45deg);
+    background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,253,0.840756285424326) 0%, rgba(226,206,133,0.8659663694579394) 17%, rgba(214,123,126,0.8603641285615808) 48%, rgba(111,165,185,0.840756285424326) 64%, rgba(69,77,110,0.8295518036316089) 97%);
+    background-size: 20px 20px;    
+    background-position:1% 0, 1% 0, 10% -25%, 0 30%;
+    border: dashed;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 55% 45% 195% 0%;
+  }
+  
+  
+  #splodge2 {    
+       width: 10px;
+       height: 25px;
+         line-height:40px;
+      transform: rotate(-150deg);
+    background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,253,0.840756285424326) 0%, rgba(226,206,133,0.8659663694579394) 17%, rgba(214,123,126,0.8603641285615808) 48%, rgba(111,165,185,0.840756285424326) 64%, rgba(69,77,110,0.8295518036316089) 97%);
+    background-size: 20px 20px;    
+    background-position:1% 0, 1% 0, 10% -25%, 0 30%;
+    border: dashed;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 55% 45% 195% 0%;
+  }
+  
+  #dot1 {
+    opacity: .5;
+    height: 25px;
+    width: 25px;
+    background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,253,0.840756285424326) 0%, rgba(226,206,133,0.8659663694579394) 17%, rgba(214,123,126,0.8603641285615808) 48%, rgba(111,165,185,0.840756285424326) 64%, rgba(69,77,110,0.8295518036316089) 97%);
+    border-radius: 55% 50% 66% 90%;
+  }
+  
+  
+   #spike {
+       width: 20px;
+       height: 500px;
+         line-height:40px;
+      transform: rotate(-20deg);
+    background-image:
+    linear-gradient(45deg, #808080 15%, transparent 55%), 
+    linear-gradient(-45deg, #808080 15%, transparent 0%),
+    linear-gradient(45deg, transparent 15%, #808080 75%),
+    linear-gradient(-45deg, transparent 75%, #808080 45%);
+    background-size: 20px 20px;    
+    background-position:1% 0, 1% 0, 10% -25%, 0 30%;
+    border: dashed;
+    border-color: white;
+    border-width: .5;
+    border-radius: 55% 45% 19% 10%;
+   }
+  
+  
+   #splodge_metalic {
+       width: 20px;
+       height: 20px;
+        line-height:40px;
+      transform: rotate(-45deg);
+    background-image:
+    linear-gradient(45deg, #808080 15%, transparent 55%), 
+    linear-gradient(-45deg, #808080 15%, transparent 0%),
+    linear-gradient(45deg, transparent 15%, #808080 75%),
+    linear-gradient(-45deg, transparent 75%, #808080 45%);
+    background-size: 20px 20px;    
+    background-position:1% 0, 1% 0, 10% -25%, 0 30%;
+    border: dashed;
+    border-color: white;
+    border-width: 5;
+    border-radius: 55% 45% 50% 50%;
+   }
+  
+   #spike2 {
+       width: 1000px;
+       height: 20px;
+         line-height:40px;
+    background-image:
+    linear-gradient(45deg, #808080 15%, transparent 55%), 
+    linear-gradient(-45deg, #808080 15%, transparent 0%),
+    linear-gradient(45deg, transparent 15%, #808080 75%),
+    linear-gradient(-45deg, transparent 75%, #808080 45%);
+    background-size: 20px 20px;    
+    background-position:1% 0, 1% 0, 10% -25%, 0 30%;
+    border: dashed;
+    border-color: white;
+    border-width: .5;
+    border-radius: 25% 95% 19% 80%;
+     /* in order to make this look like its moving like a saw or a drill, change the border-radius %s between two versions using an animation. */
+   }
+  
+  
+  
+   #pretty_geometric {
+    width: 20%;
+    height: 20%;
+    opacity: 1;
+    background-image:
+    linear-gradient(45deg, #808080 55%, transparent 55%), 
+    linear-gradient(-45deg, #808080 55%, transparent 55%),  
+    linear-gradient(45deg, transparent 15%, #d65db1 75%),
+    linear-gradient(-45deg, transparent 75%, black 15%),
+     linear-gradient(45deg, transparent 75%, #ffc75f 15%);    
+    background-position:1% 10%, 1% 0, 10% -45%, 0 80%;
+    opacity: .5;
+   }
+  
+   #pretty_geometric2 {
+    width: 20%;
+    height: 20%;
+    opacity: 1;
+    background-image:
+    linear-gradient(45deg, #808080 55%, transparent 55%), 
+    linear-gradient(-45deg, #4b4453 55%, transparent 55%),
+    linear-gradient(45deg, transparent 15%, #d65db1 75%),
+    linear-gradient(-45deg, transparent 75%, black 25%),
+    linear-gradient(45deg, transparent 75%, #ffc75f 15%);
+    
+  }
+  
+   #pretty_envelope {
+    width: 40%;
+    height: 5%;
+    opacity: 1;
+    background-image:
+      /* the degrees determine the angle of the gradient */
+    linear-gradient(20deg, #808080 55%, transparent 55%), /* delete this line to make half and half square, where purple expands to left side and there is a distinctive stripe */
+    linear-gradient(-20deg, #808080 55%, transparent 55%), /* delete this line to make half and half square to right side */
+    linear-gradient(45deg, transparent 15%, #d65db1 75%), /* delete this line to change the colour scheme to beige and the lines distinctive blocks */
+    linear-gradient(-45deg, transparent 75%, black 15%), /* delete this line to remove the darker purple line in the top left */
+    linear-gradient(45deg, transparent 75%, #ffc75f 15%);  /* delete this line makes object vanish */  
+    opacity: .5;
+   }
+  
+  
+  
+  
+    /* The ones below are patterns I created by mistake but have not recreated them in a normal box shape yet. They are in the top right corner of the screen overlapping other objects because that was what was required for the project I created them by accident during. */
+  
+   #boxes {
+     position: absolute;
+     margin-top: -10%;
+     transform: rotate(45deg);
+     margin-right: -35%;
+       width: 200%;
+       height: 40%;
+       line-height:40px;
+     opacity: 1;
+    background-image:
+    linear-gradient(45deg, #808080 15%, transparent 55%), 
+    linear-gradient(-45deg, #808080 15%, transparent 0%),
+    linear-gradient(45deg, #f9f871 15%, #808080 75%),
+    linear-gradient(-45deg, transparent 75%, #808080 45%);
+    background-size: 20px 20px;    
+    background-position:1% 10%, 1% 0, 10% -45%, 0 80%;
+    border: dashed;
+    border-color: white;
+    border-width: 4px;
+    border-radius: 19% 45% 19% 55%;
+    opacity: .5;
+   }
+  
+   #flamingo_pattern {
+     position: absolute;
+     margin-top: -10%;
+     transform: rotate(45deg);
+     margin-right: -15%;
+       width: 180%;
+       height: 40%;
+       line-height:40px;
+     opacity: 1;
+    background-image:
+    linear-gradient(45deg, #808080 55%, transparent 55%), 
+    linear-gradient(-45deg, #808080 55%, transparent 55%),
+    linear-gradient(45deg, transparent 15%, #d65db1 75%),
+    linear-gradient(-45deg, transparent 75%, black 15%),
+     linear-gradient(45deg, transparent 75%, #ffc75f 15%);
+    background-size: 20px 20px;    
+    background-position:1% 10%, 1% 0, 10% -45%, 0 80%;
+    border: dashed;
+    border-color: white;
+    border-width: 4px;
+    border-radius: 19% 45% 19% 55%;
+    opacity: .5;
+   }
+  
+  #neon_tartan_button
+  {
+     width: 90px;
+     height: 90px;
+     position:unset;
+     opacity: .6;
+    background-image:
+    linear-gradient(45deg, #808080 15%, transparent 5%), 
+    linear-gradient(-45deg, #808080 10%, transparent 0%),
+    linear-gradient(45deg, transparent 65%, #808080 5%),
+    linear-gradient(15deg, yellow 15%, transparent 75%), 
+    linear-gradient(195deg, purple 55%, transparent 10%),   
+    linear-gradient(-195deg, black 15%, transparent 5%), 
+    linear-gradient(395deg, transparent 15%, blue 35%),
+    linear-gradient(95deg, transparent 0%, purple 15%);
+    background-size: 20px 20px;    
+    background-position:1% 10%, 1% 0, 10% -45%, 0 80%;
+    border: dashed;
+    border-color: purple;
+    border-width: 1px;
+    border-radius: 80% 55%;
+  }
+  
