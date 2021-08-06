@@ -28,6 +28,7 @@
   .main {
     grid-area: main;
     padding: 10%;
+    float: left;
   }
   
   
