@@ -20,7 +20,7 @@
   .main {
     grid-area: main;
     padding: 5%;
-    width: 100%;
+    width: fit-content;
     height: fit-content;
     margin-left: 10%;
   }
@@ -28,7 +28,7 @@
   .main2 {
     grid-area: main2;
     padding: 5%;
-    width: 100%;
+    width: fit-content;
     height: fit-content;
     margin-left: 10%;
   }
@@ -251,11 +251,12 @@
 @media screen and (max-width: 85rem) {
 .container {
   display: grid;
-  grid-template-rows: .3fr 8fr 1fr;
-  grid-template-columns: .1fr 5fr 5fr .1fr;
+  grid-template-rows: .3fr 8fr 8fr 1fr;
+  grid-template-columns: .1fr 10fr .1fr;
   grid-template-areas: 
     "header header header"
-    "aside1 main main2 aside2"
+    "main main main"
+    "main2 main2 main2"
     "footer footer footer";
   grid-gap: 0;
 }
