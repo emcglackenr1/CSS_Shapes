@@ -1,8 +1,8 @@
 
 .container {
     display: grid;
-    grid-template-columns: 9% 43% 43% 5%;
-    grid-template-rows: fit-content;
+    grid-template-columns: 1fr 5fr 5fr 1fr;
+    grid-template-rows: .5fr 8fr .5;
     grid-template-areas: 
       "header header header header"
       "aside1 main main2 aside2"
@@ -251,15 +251,15 @@
 @media screen and (max-width: 85rem) {
 .container {
   display: grid;
-  grid-template-rows: .8fr 10fr .2fr;
-  grid-template-columns: .5fr 5fr 5fr .2fr;
+  grid-template-rows: .3fr 8fr 1fr;
+  grid-template-columns: .1fr 5fr 5fr .1fr;
   grid-template-areas: 
     "header header header"
     "aside1 main main2 aside2"
     "footer footer footer";
   grid-gap: 0;
-  height: 100%;
 }
+
 .main {
 padding-right: 2.5%;
 padding-left: 1%; 
