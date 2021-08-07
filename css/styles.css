@@ -223,8 +223,8 @@
 
   
    #pretty_geometric {
-    width: 20%;
-    height: 20%;
+    width: 20px
+    height: 60px;
     opacity: 1;
     background-image:
     linear-gradient(45deg, #808080 55%, transparent 55%), 
@@ -261,6 +261,18 @@
     "footer footer footer";
   grid-gap: 0;
   height: 100%;
+}
+.main {
+padding-right: 2.5%;
+padding-left: 1%; 
+}
+
+.main2 {
+padding-left: 2.5%;
+padding-right: 1%; 
+}
+
+
 }
 
   
