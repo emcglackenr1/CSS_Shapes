@@ -249,7 +249,21 @@
     opacity: .5;
    }
   
-  
+  /* Responsive columns 85rem max */
+@media screen and (max-width: 85rem) {
+.container {
+  display: grid;
+  grid-template-rows: .8fr 5fr 5fr .2fr;
+  grid-template-columns: .8fr 10fr .8fr;
+  grid-template-areas: 
+    "header header header"
+    "aside main aside1"
+    "aside main aside2"
+    "footer footer footer";
+  grid-gap: 0;
+  height: 100%;
+}
+
   
   
     /* The ones below are patterns I created by mistake but have not recreated them in a normal box shape yet. They are in the top right corner of the screen overlapping other objects because that was what was required for the project I created them by accident during. */
