@@ -257,8 +257,8 @@
   grid-template-columns: .8fr 10fr .8fr;
   grid-template-areas: 
     "header header header"
-    "aside main aside1"
-    "aside main aside2"
+    "aside1 main aside2"
+    "aside1 main2 aside2"
     "footer footer footer";
   grid-gap: 0;
   height: 100%;
